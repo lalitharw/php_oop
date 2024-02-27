@@ -1,5 +1,7 @@
 <?php
+    
     include_once '../app/auth.php';
+    echo $_SESSION['user_id'];
 ?>
 
 <h1>Dashboard</h1>
